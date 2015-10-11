@@ -1,0 +1,20 @@
+{
+  "name": "uss-qmon",
+  "version": "0.0.1",
+  "description": "job to log waiting times of attractions at Universal Studios Singapore",
+  "author": "Mark Nazareno <mark.nazareno@yahoo.com> (https://gitlab.com/u/mnazareno)",
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.com/mnazareno/uss-qmon.git"
+  },
+  "dependencies": {
+    "cron": "^1.0.9",
+    "dotenv": "^1.2.0",
+    "moment": "^2.10.6",
+    "monk": "^1.0.1",
+    "xml2js": "^0.4.12"
+  },
+  "scripts": {
+    "start": "node app"
+  }
+}
